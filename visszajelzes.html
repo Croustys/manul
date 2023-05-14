@@ -17,8 +17,12 @@
       </nav>
     </header>
     <main class="background-img">
-      <h1>Visszajelzés</h1>
-      <form action="">
+      <h1 id="vissz-h1">Visszajelzés</h1>
+      <form
+        action="mailto:apywux@inf.elte.hu"
+        method="POST"
+        enctype="multipart/form-data"
+      >
         <label for="email">Email cím</label>
         <input
           type="email"
@@ -33,7 +37,7 @@
         <input type="text" name="nev" id="nev" size="30" maxlength="60" />
 
         <section>
-          <label for="tema">Visszajelzés témája</label>
+          <label for="tema"><strong>Visszajelzés témája</strong></label>
           <br />
           <input
             type="radio"
@@ -74,12 +78,20 @@
           required
         ></textarea>
 
-        <label for="robot">Nem vagyok robot</label>
-        <input type="checkbox" id="robot" name="robot" required />
+        <section>
+          <input type="checkbox" id="robot" name="robot" required />
+          <label for="robot">Nem vagyok robot</label>
+        </section>
 
-        <button type="submit">Küldés</button>
-        <button type="reset">Alaphelyzet</button>
+        <div class="button-wrapper">
+          <button type="submit">Küldés</button>
+          <button type="reset">Alaphelyzet</button>
+        </div>
       </form>
     </main>
+    <footer>
+      <p>Barabás Ákos Tamás &copy; 2023</p>
+      <p>Minden jog fenntartva</p>
+    </footer>
   </body>
 </html>
