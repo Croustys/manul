@@ -85,7 +85,7 @@ main h1 {
 }
 
 .background-img {
-  background-image: url("./images/manulbg.jpg");
+  background-image: url("../images/manulbg.jpg");
 }
 main.background-img {
   width: 100%;
@@ -228,6 +228,7 @@ li {
 }
 #vissz-h1 {
   padding: 1em;
+  text-shadow: 2px 2px black;
   margin: 0;
 }
 

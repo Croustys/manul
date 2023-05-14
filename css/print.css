@@ -1,3 +1,51 @@
-header, iframe, video {
+header,
+iframe,
+.video,
+footer,
+.carousel-control-next,
+.carousel-control-prev {
   display: none;
+}
+.flex {
+  flex-direction: column;
+}
+img {
+  width: 50%;
+  height: 50%;
+}
+main h1 {
+  padding: 0;
+  margin: 0;
+}
+a,
+i {
+  color: black;
+}
+a:any-link {
+  color: black;
+}
+.tall-manul {
+  height: 40%;
+  width: 20%;
+  margin-bottom: 5vh;
+}
+.carousel-flex {
+  flex-direction: column;
+}
+#carousel {
+  width: 30%;
+  height: 30%;
+}
+table img {
+  width: 25%;
+  height: 25%;
+}
+table {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.center {
+  margin-top: 10vh;
+  width: auto;
 }
