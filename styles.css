@@ -71,13 +71,14 @@ a:visited {
 
 h1 {
   font-family: var(--inter);
+  text-align: center;
 }
 p {
   font-family: var(--roboto);
 }
 
-img {
-  width: 250px;
+main h1 {
+  margin: 1em;
 }
 
 .background-img {
@@ -97,4 +98,84 @@ main.background-img form {
   margin: auto;
   justify-content: center;
   align-items: center;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+.flex article,
+.flex div {
+  margin: 1.5em;
+  font-family: var(--roboto);
+  text-align: center;
+}
+.flex p {
+  font-size: 1.2em;
+  text-align: left;
+}
+.flex article > a {
+  font-size: 1.6em;
+}
+.flex article > div {
+  width: 68%;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  background-color: var(--highlight);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 1em;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+.video a {
+  font-size: 1.6em;
+}
+
+figure img {
+  width: 75%;
+}
+#carousel {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+.carousel-flex {
+  display: flex;
+}
+.carousel-flex div {
+  text-align: justify;
+}
+
+table {
+  border: 1px solid black;
+}
+tr,
+td,
+th {
+  border: 1px solid black;
+}
+.text-wrapper {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+aside {
+  margin-right: 5vw;
+}
+aside table tr {
+  text-align: center;
+}
+aside table figure {
+  margin-top: 1em;
 }
