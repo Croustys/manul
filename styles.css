@@ -179,3 +179,26 @@ aside table tr {
 aside table figure {
   margin-top: 1em;
 }
+.space-around p {
+  margin: 2vh auto;
+}
+.center {
+  font-family: var(--inter);
+  display: block;
+  margin: auto;
+  width: 35%;
+  text-align: center;
+}
+.center div {
+  text-align: left;
+  margin-left: 4em;
+  margin-top: 2vh;
+}
+li {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  font-family: var(--roboto);
+}
+.pad {
+  padding: 1em;
+}
