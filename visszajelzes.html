@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visszajelzés - Pusztai Macska</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Főoldal</a>
+        <a href="./manul.html">Manulról</a>
+        <a href="./elohely.html">Élőhely</a>
+        <a href="#" class="selected">Visszajelzés</a>
+      </nav>
+    </header>
+    <main class="background-img">
+      <h1>Visszajelzés</h1>
+      <form action="">
+        <label for="email">Email cím</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          size="30"
+          maxlength="60"
+          required
+        />
+
+        <label for="nev">Név</label>
+        <input type="text" name="nev" id="nev" size="30" maxlength="60" />
+
+        <section>
+          <label for="tema">Visszajelzés témája</label>
+          <br />
+          <input
+            type="radio"
+            name="tema"
+            id="tema-velemeny"
+            value="velemeny"
+            required
+          />
+          <label for="tema-velemeny">Vélemény</label>
+          <br />
+          <input
+            type="radio"
+            name="tema"
+            id="tema-javaslat"
+            value="javaslat"
+            required
+          />
+          <label for="tema-javaslat">Javaslat</label>
+          <br />
+          <input
+            type="radio"
+            name="tema"
+            id="tema-hiba"
+            value="hiba"
+            required
+          />
+          <label for="tema-hiba">Hiba / Rossz információ</label>
+        </section>
+
+        <label for="uzenet">Üzenet</label>
+        <textarea
+          name="uzenet"
+          id="uzenet"
+          cols="30"
+          rows="10"
+          maxlength="200"
+          placeholder="Üzenet (maximum 200 karakter)"
+          required
+        ></textarea>
+
+        <label for="robot">Nem vagyok robot</label>
+        <input type="checkbox" id="robot" name="robot" required />
+
+        <button type="submit">Küldés</button>
+        <button type="reset">Alaphelyzet</button>
+      </form>
+    </main>
+  </body>
+</html>
