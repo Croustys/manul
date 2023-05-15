@@ -4,12 +4,12 @@ h1 {
   text-align: center;
   font-size: 3em;
   color: #23381b;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', 'Verdana', sans-serif;
 }
 
 p {
   font-size: 1.5em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
 }
 #main {
   margin-left: 10vw;
