@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="hu-HU">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <meta name="description" content="Manul a Pusztai Macska">
     <meta name="author" content="Barabás Ákos Tamás">
     <title>Visszajelzés - Pusztai Macska</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" >
     <link
       rel="stylesheet"
       type="text/css"
       href="./css/print.css"
       media="print"
-    />
+    >
   </head>
   <body>
     <header>
@@ -27,7 +27,7 @@
         <a href="#" class="selected">Visszajelzés</a>
       </nav>
       <figure>
-        <img src="./images/picto.png" alt="piktogram manulról" />
+        <img src="./images/picto.png" alt="piktogram manulról" >
       </figure>
     </header>
     <main class="background-img">
@@ -45,43 +45,43 @@
           size="30"
           maxlength="60"
           required
-        />
+        >
 
         <label for="nev">Név</label>
-        <input type="text" name="nev" id="nev" size="30" maxlength="60" />
+        <input type="text" name="nev" id="nev" size="30" maxlength="60" >
 
-        <section>
+        <div>
           <label for="tema-velemeny"
             ><strong>Visszajelzés témája</strong></label
           >
-          <br />
+          <br >
           <input
             type="radio"
             name="tema"
             id="tema-velemeny"
             value="velemeny"
             required
-          />
+          >
           <label for="tema-velemeny">Vélemény</label>
-          <br />
+          <br >
           <input
             type="radio"
             name="tema"
             id="tema-javaslat"
             value="javaslat"
             required
-          />
+          >
           <label for="tema-javaslat">Javaslat</label>
-          <br />
+          <br >
           <input
             type="radio"
             name="tema"
             id="tema-hiba"
             value="hiba"
             required
-          />
+          >
           <label for="tema-hiba">Hiba / Rossz információ</label>
-        </section>
+        </div>
 
         <label for="uzenet">Üzenet</label>
         <textarea
@@ -94,10 +94,10 @@
           required
         ></textarea>
 
-        <section>
-          <input type="checkbox" id="robot" name="robot" required />
+        <div>
+          <input type="checkbox" id="robot" name="robot" required >
           <label for="robot">Nem vagyok robot</label>
-        </section>
+        </div>
 
         <div class="button-wrapper">
           <button type="submit">Küldés</button>
